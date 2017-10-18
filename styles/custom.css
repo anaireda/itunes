@@ -1,18 +1,25 @@
 /* ==============================================
    COLORS
    ============================================== */
-
-
+.text-licht {
+	color: #fafafa;
+	}
+.donker {
+	background-color: #002530;
+	}
 /* ==============================================
    GLOBAL STYLES
    ============================================== */
-article {
-	background-color: yellow !important;
-}
+hr {
+	background-color: #fafafa;
+	}
+.btn:hover {
+	color: #002530;
+	border: 1px solid #fafafa;
+	}
 .row>div {
-	border: 1px solid red;
-	display: flex;
-}
+  margin-bottom: 30px;
+	}
 
 /* MEDIA QUERIES
 *********************************************/
